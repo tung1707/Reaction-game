@@ -40,5 +40,5 @@ document.getElementById("shape").onclick = function () {
     var end = new Date().getTime()
     var timeTaken = (end - start) / 1000
     document.getElementById("timeTaken").innerHTML = timeTaken + "s"
-    appearAfterDelay();
+    appearAfterDelay(); 
 }
